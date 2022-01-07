@@ -2,8 +2,6 @@
 
 **此项目使用`Gin`+`Gorm` ，基于`RESTful API`实现的一个任务清单**。
 
-
-
 ## 项目功能实现
 
 * 登录鉴权（jwt-go）
@@ -11,8 +9,6 @@
 * 清单 crud
 
 * 分页
-
-
 
 ## 项目架构
 
@@ -45,8 +41,6 @@ TodoList/
 
 * service : 接口函数的实现
 
-
-
 ## 项目接口
 
 ```bash
@@ -57,10 +51,7 @@ TodoList/
 [GIN-debug] GET    /api/v1/tasks             --> TodoList/api.ListTask (4 handlers)
 [GIN-debug] PUT    /api/v1/task/:id          --> TodoList/api.UpdateTask (4 handlers)
 [GIN-debug] DELETE /api/v1/task/:id          --> TodoList/api.DeleteTask (4 handlers)
-
 ```
-
-
 
 ## 项目运行
 
@@ -72,50 +63,8 @@ go mod tidy
 go run main.go
 ```
 
+## 感谢
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+[【Go语言实战】(3) Gin + Gorm 简单备忘录 | 含接口文档_面向生活编程-CSDN博客](https://blog.csdn.net/weixin_45304503/article/details/120680957)
 
 
