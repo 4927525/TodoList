@@ -41,6 +41,18 @@ TodoList/
 
 * service : 接口函数的实现
 
+## 项目依赖
+
+* go1.16
+
+* gin
+
+* gorm
+
+* jwt-go
+
+* mysql
+
 ## 项目接口
 
 ```bash
